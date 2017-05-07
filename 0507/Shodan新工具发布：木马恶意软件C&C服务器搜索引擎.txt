@@ -1,0 +1,19 @@
+Shodan新工具发布：木马恶意软件C&C服务器搜索引擎 
+
+shodan-1.jpg
+
+5月2日，Shodan和Recorded Future联合推出在线恶意软件C&C（命令和控制）服务器搜索引擎-Malware Hunter，该工具被集成在Shodan基础搜索引擎之上，可以极大方便广大安全研究人员进行相关恶意软件感染设备的探测发现。
+Malware Hunter技术支持
+
+Malware Hunter通过大量的搜索节点（bot）发现互联网上的僵尸主机。为了准确跟踪和确定C&C服务器位置，搜索节点通过模仿或假装受恶意软件感染主机，向特定C&C服务器发送多种预定义请求，如果对方作出有效响应，Malware Hunter就记录下其IP地址和其它相关信息，储存进入Shodan搜索库。
+
+1.jpg
+
+Malware Hunter基于Shodan和Recorded Future的共同技术，其中，Shodan负责互联网IP地址快速高效的探测能力，而Recorded Future提供模仿受恶意软件感染的假冒主机技术。Recorded Future曾与Google和CIA共同开发互联网开源情报信息系统。
+
+关于Malware Hunter的更多技术，请参考Recorded Future15页技术报告《主动威胁识别过程发现远程访问木马的有效方式》。
+Malware Hunter识别能力广泛
+
+目前来说，Malware Hunter能识别和发现多种远控端（RAT），如Dark Comet、njRAT、Poison Ivy、 Ghost RAT。如果你感兴趣，请用Shodan账号登录搜索把玩。
+
+在未来，Malware Hunter希望能支持多种类型恶意软件的探测识别，如僵尸网络恶意软件、后门木马或网络间谍软件、加密挖矿恶意软件或DDoS恶意软件等。

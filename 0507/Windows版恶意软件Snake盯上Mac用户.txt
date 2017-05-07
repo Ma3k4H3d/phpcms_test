@@ -1,0 +1,8 @@
+Windows版恶意软件Snake盯上Mac用户 伪装成Flash安装器 时间：2017.05.07 来源：MacX	
+
+据Malwarebytes报道，臭名昭著的Windows恶意软件Snake（或者叫Turla、Uroboros）已经开始转向Mac平台。更新后的代码让其伪装成一个Adobe Flash安装器程序，封装在一个ZIP压缩文件中，文件名为“Install Adobe Flash Player.app.zip”。运行后，安装程序将改为“Addy Symonds”签名而不是Adobe。
+
+如果系统Gatekeeper被设置成允许未签名App安装，那么用户将会被要求输入管理员密码，与Adobe的Flash安装程序一样。而该恶意软件的外观也设计得与Flash安装器很像。一旦用户安装该恶意软件，很有可能会给攻击者打开系统后门，用户密码和未加密文件也会暴露。
+
+因此建议用户尽量通过正规渠道下载Flash播放器，另外也要注意不要下载甚至安装邮件附件中的Flash安装器。
+
